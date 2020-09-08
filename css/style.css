@@ -151,7 +151,7 @@ header {
   background-position: -50px top;
   padding: 5px;
 }
-
+.detal-input::placeholder,
 .email-input::placeholder,
 .phone-input::placeholder {
   font-size: 13px;
@@ -313,5 +313,337 @@ header {
 
 .f-map::before {
   background-image: url('../img/Forma\ 1.png');
-
 }
+.detal-input{
+  display: inline-block;
+  padding: 28px 0;
+  padding-left: 30px;
+  width: 370px;
+  background-color: #f2f2f2;
+  outline-color: #efefef;
+  border: none;
+  margin-bottom: 28px;
+}
+.service-button{
+  background-color: #f7b516;
+}
+
+
+
+
+
+.work-figure {
+  margin: 0;
+    padding: 0;
+  }
+  
+  .figure-wrapper {
+    padding: 52px;
+    padding-bottom: 65px;
+    background-color: #0B3554;
+  }
+  
+  .figure-list {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    margin-top: 99px;
+    margin-right: auto;
+  }
+  
+  .figure-heading {
+    margin: 0;
+    padding-top: 49px;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+  }
+  
+  .figure-item {
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 50px;
+    margin-left: 6px;
+    transition: color 0.4s ease;
+    margin-left: 29px;
+  }
+  
+  .shape-1::before {
+    position: absolute;
+    left: 0;
+    transform: translateX(-130%);
+    display: inline-block;
+    content: '1';
+  }
+  
+  .shape-2::before {
+    position: absolute;
+    left: 0;
+    transform: translateX(-130%);
+    display: inline-block;
+    content: '2';
+  }
+  
+  .shape-2 {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+  }
+  
+  .shape-3::before {
+    position: absolute;
+    left: 0;
+    transform: translateX(-130%);
+    display: inline-block;
+    content: '3';
+  }
+  
+  .shape-4::before {
+    position: absolute;
+    left: 0;
+    transform: translateX(-130%);
+    display: inline-block;
+    content: '4';
+  }
+  
+  .shape-5::before {
+    position: absolute;
+    left: 0;
+    transform: translateX(-130%);
+    display: inline-block;
+    content: '5';
+  }
+  
+  .dropdown {
+    padding: 16px;
+    position: absolute;
+    top: 0;
+    transform: translateY(17%);
+    background-color: white;
+    width: 331px;
+    display: none;
+  }
+  
+  .dropdown-wrapper {
+    position: relative;
+  }
+  
+  .dropdown::before {
+    position: absolute;
+    top: 0;
+    transform: translateY(-100%);
+    left: 10px;
+    display: inline-block;
+    content: '';
+    border-bottom: 8px solid white;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+  }
+  
+  .dropdown>p {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 14px;
+    width: 269px;
+  }
+  
+  .dropdown-info {
+    margin-bottom: 16px !important;
+  }
+  
+  .shape-2:hover .dropdown {
+    display: block;
+  }
+  
+  .dropdown-wrapper:hover .dropdown {
+    display: block;
+  }
+  
+  .figure-item:hover {
+    color: rgb(87, 158, 255);
+  }
+  
+  .figure-text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-top: 22px;
+  }
+  
+  .figcaption-mini-wrapper {
+    display: flex;
+  }
+  
+  .owner-wrapper {
+    margin-top: 99px;
+  }
+  
+  .reset-button {
+    display: inline-block;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 13px;
+    margin-left: 20px;
+  }
+  
+  .convenience {
+    margin-top: 91px;
+    margin-bottom: 100px;
+  }
+  
+  .convenience-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+  }
+  
+  .convenience-item {
+    text-align: center;
+  }
+  
+  .convenience-item:nth-child(1) {
+    width: 225px;
+  }
+  
+  .convenience-item:nth-child(2) {
+    width: 225px;
+  }
+  
+  .convenience-item:nth-child(3) {
+    width: 225px;
+  }
+  
+  .convenience-heading,
+  .convenience-text {
+    margin: 0;
+    padding: 0;
+    color: #222;
+  }
+  
+  .convenience-text {
+    margin-top: 23px;
+  }
+  
+  /* convenience */
+  
+  .convenience-heading {
+    margin-top: 3px;
+    font-size: 36px;
+  }
+  
+  .convenience-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .convenience-item {
+    margin-top: 104px;
+    font-size: 18px;
+    color: #222;
+  }
+  
+  .convenience-item::before {
+   display: block;
+    content: '';
+    width: 88px;
+    height: 88px;
+    background-repeat: no-repeat;
+    background-size: unset;
+    background-position: center bottom;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+  
+  .c-money::before {
+    background-image: url('../img/Слой\ 9.png');
+  }
+  
+  .c-truck::before {
+    background-image: url('../img/Слой\ 10.png');
+  }
+  
+  .c-list::before {
+    background-image: url('../img/Слой\ 11.png');
+  }
+  .c2-truck::before {
+    background-image: url('../img/delevery.png');
+    width: 170px;
+    height: 170px;
+    margin-left: 30px;
+  }
+  
+  .c2-bag::before {
+    background-image: url('../img/certificate.png');
+    width: 170px;
+    height: 170px;
+    margin-left: 30px;
+  }
+  
+  .c2-paper::before {
+    background-image: url('../img/toolbox.png');
+    width: 170px;
+    height: 170px;
+    margin-left: 30px;
+  }
+ 
+  
+  /* Work place  */
+  
+  .work-place {
+    background-color: #0B3554;
+    padding: 98px;
+  }
+  
+  .work-place-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .work-place-heading {
+    font-size: 36px;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .work-place-info {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    width: 700px;
+    margin-top: 11px;
+  }
+  
+  .work-place-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 130px;
+  }
+  
+  .work-place-image {
+    margin-right: 30px;
+    display: block;
+  }
+  
+  .center-type {
+      font-size: 36px;
+      color: rgb( 0, 0, 0 );
+      text-align: center;
+      width: 821px;
+      text-align: center;
+  }
