@@ -358,7 +358,7 @@ header {
   margin-bottom: 60px;
 }
 
-.s-phone{
+.s-phone {
   width: 250px;
   margin-left: auto;
   margin-right: auto;
@@ -388,10 +388,50 @@ header {
   justify-content: center;
 }
 
+.a-heading {
+  width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 36px;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
+}
+.article__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.article__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+}
 
+.article__img{
+  width: 230px;
+  height: 300px;
+}
 
+.article__text{
+    font-size: 18px;
+    width: 300px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+}
 
+.article__link{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;  
+    border-bottom: 1px solid #222;
+}
 
 .work-figure {
   margin: 0;
@@ -708,4 +748,104 @@ header {
   text-align: center;
   width: 821px;
   text-align: center;
+}
+
+.office {
+  background-position: top center;
+  min-height: 400px;
+  background-image: url('../img/Группа\ 12.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.office-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.office-heading {
+  margin: 0;
+  width: 365px;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 100px;
+  margin-bottom: 101px;
+}
+
+.office-text {
+  margin: 0;
+  width: 317px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 31px;
+}
+
+.office-phone-number {
+  text-decoration: none;
+  width: 208px;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.footer-map {
+  background-image: url('../img/Прямоугольник\ 3\ копия\ 5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 375px;
+  background-position: center center;
+}
+
+.site-footer {
+  min-height: 120px;
+  background-color: #191919;
+}
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-logo {
+  text-decoration: none;
+}
+
+.site-footer-text {
+  width: 209px;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: white;
+}
+
+.site-footer-tel {
+  color: white;
+  text-decoration: none;
+  width: 160px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.company-address {
+  width: 142px;
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+}
+
+.heart::before {
+  display: inline-block;
+  content: '';
+  height: 14px;
+  background-image: url('../img/love.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 15px;
+  margin-left: 2px;
+  margin-right: 2px;
+  transform: translateY(25%);
 }
