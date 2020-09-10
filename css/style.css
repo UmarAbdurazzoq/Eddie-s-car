@@ -388,6 +388,89 @@ header {
   justify-content: center;
 }
 
+.article-section {
+  padding: 100px 0;
+}
+
+.bonus-section {
+  padding: 100px 0;
+  background-color: #08243e;
+}
+
+.bonus__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-top: 50px;
+}
+
+.bonus__heading {
+  font-size: 36px;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bonus__item {
+  width: 230px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+
+  text-align: center;
+}
+
+.bonus__item::before {
+  display: block;
+  content: '';
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center center;
+  margin-bottom: 50px;
+  margin-left: 65px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.b-10percent::before {
+  padding-top: 30px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  content: "10%";
+
+}
+
+.b-20percent::before {
+  padding-top: 30px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  content: "20%";
+
+}
+
+.b-truck::before {
+  background-image: url('../img/delivery-truck\ \(4\).png');
+
+}
+
+.b-telemarketer::before {
+  background-image: url('../img/telemarketer.png');
+  background-size: 40%;
+}
+
 .a-heading {
   width: 610px;
   margin-left: auto;
@@ -397,40 +480,44 @@ header {
   line-height: 1.2;
   text-align: center;
 }
-.article__list{
+
+.article__list {
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.article__item{
+
+.article__item {
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
 
-.article__img{
+.article__img {
   width: 230px;
   height: 300px;
 }
 
-.article__text{
-    font-size: 18px;
-    width: 300px;
-    color: rgb(0, 0, 0);
-    line-height: 1.2;
-    text-align: center;
+.article__text {
+  font-size: 18px;
+  width: 300px;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
 }
 
-.article__link{
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    text-decoration: underline;
-    line-height: 1.2;
-    text-align: center;
-    text-decoration: none;  
-    border-bottom: 1px solid #222;
+.article__link {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-decoration: underline;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 1px solid #222;
 }
 
 .work-figure {
